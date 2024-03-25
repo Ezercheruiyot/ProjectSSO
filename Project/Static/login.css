@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-image: url("https://wp.technologyreview.com/wp-content/uploads/2023/05/IBM_lock_1200.png?w=1200");
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2); 
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; /* Added position relative for positioning icons */
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-box input{
+    width: 100%;
+    height: 25px;
+    border-radius: 40px;
+    border: #fff;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 40px;
+}

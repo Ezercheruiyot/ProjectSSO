@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='otp.css') }}">
+    <title>Enter OTP</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Enter OTP</h1>
+    <form action="/otp" method="POST">
+        <div class="input-box">
+            <label for="otp">OTP:</label><br>
+            <input type="text" id="otp" name="otp" required><br>
+        </div>
+        
+        <div>
+            <button type="submit" class="btn">Submit OTP</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

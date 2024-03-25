@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://www.cummins.com/sites/default/files/styles/newsroom_hero_image/public/images/newsroom_article/cybersecurity.jpg?itok=lb55sMTR");
+    background-size: 1400px 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.button {
+    position: relative;
+    top: 30px;
+    left: 200px;
+    width: 190px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #3498db; /* Add border */
+    transition: background-color 0.3s; /* Add smooth hover effect on background color */
+}
+
+.button:hover {
+    background-color: #2980b9; /* Change background color on hover */
+}
+p {
+    color: #faf8f8;
+}
+h1 {
+    color: #cfc2c2;
+}
